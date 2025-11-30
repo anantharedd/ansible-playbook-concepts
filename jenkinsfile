@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git 'https://github.com/classes-101/akbar-app.git'
+                git 'https://github.com/anantharedd/ansible-playbook-concepts.git'
             }
         }
         stage('docker build') {
@@ -14,3 +14,4 @@ pipeline {
         }
     }
 }
+
